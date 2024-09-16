@@ -5,7 +5,9 @@ function App() {
   return (
     <>
       <Header />
-      <Outlet />
+      <section className='relative top-16 z-0'>
+        <Outlet />
+      </section>
     </>
   );
 }

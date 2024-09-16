@@ -1,24 +1,34 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { BiMenu } from 'react-icons/bi';
 
 export default function Header() {
   return (
-    <header className='p-4 mb-10 flex justify-between items-center'>
-      <h1 className='text-4xl tracking-tighter font-Poppins'>
-        <span className='text-green-400 font-bold'>eco</span>
-        <span className='bg-blue-600 inline-block h-9 font-black italic'>
-          Drive
-        </span>
-      </h1>
-      <nav>
-        <ul className='list-none flex gap-10'>
-          <li>Browse Vehicles</li>
-          <li>Driving Tips</li>
-          <li>Efficiency Calculator</li>
-        </ul>
+    <header className='bg-zinc-950 fixed w-full h-16 z-50 p-4 text-center'>
+      <BiMenu className='size-6 md:hidden absolute top-6 left-7 cursor-pointer' />
+      <nav className='md:flex md:gap-8 lg:gap-12 text-sm hidden absolute left-7 top-6'>
+        <Link to='/search' className='menu'>
+          Browse
+        </Link>
+        <Link to='/tips' className='menu'>
+          Tips
+        </Link>
+        <Link to='/calculator' className='menu'>
+          Calculator
+        </Link>
       </nav>
-      <section>
-        <button className='mr-3'>My Page</button>
-        <button>Login</button>
+      <Link
+        to='/'
+        className='text-3xl tracking-tighter font-Bruno cursor-pointer'
+      >
+        <span>eco</span>
+        <span className='font-bold italic'>Drive</span>
+      </Link>
+      <section className='absolute right-7 top-6 flex gap-8 lg:gap-12'>
+        <Link to='/mypage' className='md:block hidden menu'>
+          My Page
+        </Link>
+        <p className='menu'>Login</p>
       </section>
     </header>
   );
