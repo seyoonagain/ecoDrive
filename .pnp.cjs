@@ -34,6 +34,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-react-app", "virtual:fe0810588810d2c8af3343de8ba9b3ad58b857d4e3620685943fd737d3ec5f43a2674cbbb0bd5af69b65863c81c8d29cc121719b94aab93ab59f92aab181e02d#npm:7.0.1"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:fe0810588810d2c8af3343de8ba9b3ad58b857d4e3620685943fd737d3ec5f43a2674cbbb0bd5af69b65863c81c8d29cc121719b94aab93ab59f92aab181e02d#npm:18.3.1"],\
+          ["react-icons", "virtual:fe0810588810d2c8af3343de8ba9b3ad58b857d4e3620685943fd737d3ec5f43a2674cbbb0bd5af69b65863c81c8d29cc121719b94aab93ab59f92aab181e02d#npm:5.3.0"],\
           ["react-router-dom", "virtual:fe0810588810d2c8af3343de8ba9b3ad58b857d4e3620685943fd737d3ec5f43a2674cbbb0bd5af69b65863c81c8d29cc121719b94aab93ab59f92aab181e02d#npm:6.26.2"],\
           ["react-scripts", "virtual:fe0810588810d2c8af3343de8ba9b3ad58b857d4e3620685943fd737d3ec5f43a2674cbbb0bd5af69b65863c81c8d29cc121719b94aab93ab59f92aab181e02d#npm:5.0.1"],\
           ["tailwindcss", "npm:3.4.11"],\
@@ -8216,6 +8217,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-react-app", "virtual:fe0810588810d2c8af3343de8ba9b3ad58b857d4e3620685943fd737d3ec5f43a2674cbbb0bd5af69b65863c81c8d29cc121719b94aab93ab59f92aab181e02d#npm:7.0.1"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:fe0810588810d2c8af3343de8ba9b3ad58b857d4e3620685943fd737d3ec5f43a2674cbbb0bd5af69b65863c81c8d29cc121719b94aab93ab59f92aab181e02d#npm:18.3.1"],\
+          ["react-icons", "virtual:fe0810588810d2c8af3343de8ba9b3ad58b857d4e3620685943fd737d3ec5f43a2674cbbb0bd5af69b65863c81c8d29cc121719b94aab93ab59f92aab181e02d#npm:5.3.0"],\
           ["react-router-dom", "virtual:fe0810588810d2c8af3343de8ba9b3ad58b857d4e3620685943fd737d3ec5f43a2674cbbb0bd5af69b65863c81c8d29cc121719b94aab93ab59f92aab181e02d#npm:6.26.2"],\
           ["react-scripts", "virtual:fe0810588810d2c8af3343de8ba9b3ad58b857d4e3620685943fd737d3ec5f43a2674cbbb0bd5af69b65863c81c8d29cc121719b94aab93ab59f92aab181e02d#npm:5.0.1"],\
           ["tailwindcss", "npm:3.4.11"],\
@@ -15339,6 +15341,28 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/react-error-overlay-npm-6.0.11-021cdeaa92-10c0.zip/node_modules/react-error-overlay/",\
         "packageDependencies": [\
           ["react-error-overlay", "npm:6.0.11"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react-icons", [\
+      ["npm:5.3.0", {\
+        "packageLocation": "../../.yarn/berry/cache/react-icons-npm-5.3.0-3814684035-10c0.zip/node_modules/react-icons/",\
+        "packageDependencies": [\
+          ["react-icons", "npm:5.3.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:fe0810588810d2c8af3343de8ba9b3ad58b857d4e3620685943fd737d3ec5f43a2674cbbb0bd5af69b65863c81c8d29cc121719b94aab93ab59f92aab181e02d#npm:5.3.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-icons-virtual-99905956c0/3/.yarn/berry/cache/react-icons-npm-5.3.0-3814684035-10c0.zip/node_modules/react-icons/",\
+        "packageDependencies": [\
+          ["react-icons", "virtual:fe0810588810d2c8af3343de8ba9b3ad58b857d4e3620685943fd737d3ec5f43a2674cbbb0bd5af69b65863c81c8d29cc121719b94aab93ab59f92aab181e02d#npm:5.3.0"],\
+          ["@types/react", null],\
+          ["react", "npm:18.3.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\

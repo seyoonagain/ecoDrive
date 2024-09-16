@@ -2,7 +2,16 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      Bruno: 'Bruno Ace SC',
+      Urbanist: 'Urbanist',
+    }
+    ,
+    extend: {
+      backgroundImage: {
+        banner: "url('../public/images/banner.jpg')",
+      }
+    },
   },
   plugins: [],
 }
