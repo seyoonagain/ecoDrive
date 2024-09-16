@@ -6,9 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Main from './pages/Main';
 import Search from './pages/Search';
-import MyFuelEfficiency from './pages/MyFuelEfficiency';
 import Tips from './pages/Tips';
 import Error from './pages/Error';
+import EfficiencyCalculator from './pages/EfficiencyCalculator';
+import MyPage from './pages/MyPage';
 
 const router = createBrowserRouter([
   {
@@ -19,8 +20,9 @@ const router = createBrowserRouter([
       { path: '', element: <Main /> },
       { path: 'search', element: <Search /> },
       { path: 'search/:keyword', element: <Search /> },
-      { path: 'myfuelefficiency', element: <MyFuelEfficiency /> },
+      { path: 'calculator', element: <EfficiencyCalculator /> },
       { path: 'tips', element: <Tips /> },
+      { path: 'mypage', element: <MyPage /> },
     ]
   }
 ])
